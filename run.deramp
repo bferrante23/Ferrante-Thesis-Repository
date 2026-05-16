@@ -1,0 +1,6 @@
+#!/bin/tcsh -f
+
+rm -f log.*
+
+flatten_unw.csh dates.run unwrap_ll 4 78.35 79.0 40.95 41.4 dem_flt  >& log.deramp
+
